@@ -15,15 +15,16 @@ body {
 
 h1 {
   position: relative;
-  font-size: 200px;
+  font-size: 400px;
   letter-spacing: 20px;
   color: #0e3742;
   width: 100%;
   text-align: center;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0001);
   line-height: 0.7em;
   background: transparent;
   animation: animate 5s linear infinite;
+  
 }
 
 @keyframes animate {
@@ -58,3 +59,4 @@ h1 {
 a {
   text-decoration: none;
 }
+
